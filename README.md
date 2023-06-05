@@ -1,6 +1,6 @@
 # bdd-memo.md
 
-**SGBD** = syst de gestion de BDD
+**SGBD** = syst de gestion de BDD (principaux = Oracle, MySQL, Microsoft SQL Server, PostgreSQL)
 Un système de gestion de base de données (SGBD) est le logiciel qui permet à un ordinateur de stocker, récupérer, ajouter, supprimer et modifier des données. Un SGBD gère tous les aspects primaires d'une base de données, y compris la gestion de la manipulation des données, comme l'authentification des utilisateurs, ainsi que l'insertion ou l'extraction des données. Un SGBD définit ce qu'on appelle le schéma de données ou la structure dans laquelle les données sont stockées.
 Les outils que nous utilisons tous au quotidien nécessitent des SGBD en coulisse. Cela comprend les guichets automatiques bancaires, les systèmes de réservation de vols, les systèmes d'inventaire au détail et les catalogues de bibliothèques, par exemple.
 
@@ -40,7 +40,12 @@ Propriété: Une propriété devient un attribut.
 Individu: Un individu devient une relation (minimum en 3ème forme normale).
 Identifiant: L'identifiant d'un individu devient la clé primaire de la relation correspondante.
 Association sans propriétés propres
+
 Cardinalités (0,1) ou (1,1) vers (0,n) ou (1,n) : L'association disparaît et la clé de la relation relative à la cardinalité (0,n) ou (1,n) migre vers la relation relative à la cardinalité (0,1) ou (1,1). Cette clé est appelé "clé étrangère".
+
+Cardinalités (0,n) ou (1,n) vers (0,n) ou (1,n): L'association devient une relation avec comme clé la concaténation des clés des 2 relations.
+
+Associations avec propriétés propres : Comme dans le cas précédent, l'association devient une relation ayant comme clé la concaténation des clés des relations associées à chaque individu. Les propriétés propres de l'association deviennent des attributs de cette relation.
 
 
 
