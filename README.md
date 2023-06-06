@@ -101,7 +101,7 @@ Comment ne sélectionner que certaines colonnes et les renommer dans la liste de
 
 Comment supprimer une table et une base de données ? **DROP TABLE/DATABASE**
 
-
+**SQLite** : SQLite est une bibliothèque en langage C qui implémente un moteur de base de données SQL petit , rapide , autonome , hautement fiable et complet . SQLite est le moteur de base de données le plus utilisé au monde. SQLite est intégré à tous les téléphones mobiles et à la plupart des ordinateurs et est fourni avec d'innombrables autres applications que les gens utilisent quotidiennement.
 
 
 
