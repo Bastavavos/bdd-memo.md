@@ -47,11 +47,11 @@ Cardinalités (0,n) ou (1,n) vers (0,n) ou (1,n): L'association devient une rela
 
 Associations avec propriétés propres : Comme dans le cas précédent, l'association devient une relation ayant comme clé la concaténation des clés des relations associées à chaque individu. Les propriétés propres de l'association deviennent des attributs de cette relation.
 
-
-
-
-
-
+**Créer une BDD**
+**Faire un commentaire**
+**Créer table / colonnes**
+**types de données qu'on utilise le plus souvent**
+**contraintes utiles colonnes, valeur obligatoire, définir l'id d'une table**
 
 
 
