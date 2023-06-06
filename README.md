@@ -84,11 +84,12 @@ Comment ne sélectionner qu'un certain nombre de résultats ? **LIMIT nbdeRésul
 
 Comment trier les résultats ? **ORDER BY**
 
-Comment filtrer les données et chaîner les conditions de filtres ?
+Comment filtrer les données et chaîner les conditions de filtres ? **WHERE element = 'name'** 
 
-Comment filtrer une colonne avec une valeur commençant par un certain caractère ?
+Comment filtrer une colonne avec une valeur commençant par un certain caractère ? **AND** ou **OR** pour être plus précis **AND element LIKE 'type'**
 
-A quoi servent les INDEX ? Comment en créer ?
+A quoi servent les INDEX ? Comment en créer ? permet de récupérer les données plus rapidement 
+**CREATE INDEX type_index ON table(type);**
 
 Comment créer une relation entre 2 tables ?
 
