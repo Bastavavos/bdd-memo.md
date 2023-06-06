@@ -91,13 +91,13 @@ Comment filtrer une colonne avec une valeur commençant par un certain caractèr
 A quoi servent les INDEX ? Comment en créer ? permet de récupérer les données plus rapidement 
 **CREATE INDEX type_index ON table(type);**
 
-Comment créer une relation entre 2 tables ?
+Comment créer une relation entre 2 tables ? **LEFT/RIGHT/INNER/OUTER JOIN**
 
 Comment sélectionner les données de plusieurs tables ?
 
 Comment ne sélectionner que certaines colonnes et les renommer dans la liste de résultats ?
 
-Comment supprimer une table et une base de données ?
+Comment supprimer une table et une base de données ? **DROP TABLE/DATABASE**
 
 
 
