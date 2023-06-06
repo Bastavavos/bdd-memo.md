@@ -47,11 +47,56 @@ Cardinalités (0,n) ou (1,n) vers (0,n) ou (1,n): L'association devient une rela
 
 Associations avec propriétés propres : Comme dans le cas précédent, l'association devient une relation ayant comme clé la concaténation des clés des relations associées à chaque individu. Les propriétés propres de l'association deviennent des attributs de cette relation.
 
-**Créer une BDD**
-**Faire un commentaire**
-**Créer table / colonnes**
-**types de données qu'on utilise le plus souvent**
-**contraintes utiles colonnes, valeur obligatoire, définir l'id d'une table**
+
+**KIT 2**
+
+Créer une BDD --> collection de tableaux, dans chaque tableau on a nos données réelles organisées en col et row
+langage utilisé pour manipuler et lire les données
+
+**CREATE DATABASE nomBdd; **
+
+pour visualiser : **SHOW DATABASES;**
+
+Faire un commentaire: **--** commentaire
+
+Créer table / colonnes --> ici colonnes id, email, etc 
+**CREATE TABLE NomTable(
+    id,
+    email,
+    etc,
+);
+
+types de données qu'on utilise le plus souvent
+
+contraintes utiles colonnes: valeur obligatoire, définir l'id d'une table ?
+
+Comment préciser que la valeur d'une colonne doit être unique ?(pour une adresse email par
+exemple) : 
+**VALUES (
+     'nanana@gmail.com',
+);**
+
+Comment insérer des données dans une table ?
+
+Comment récupérer les données insérées ?
+
+Comment ne sélectionner qu'un certain nombre de résultats ? **LIMIT nbdeRésultatsSouhaités; **
+
+Comment trier les résultats ? **ORDER BY**
+
+Comment filtrer les données et chaîner les conditions de filtres ?
+
+Comment filtrer une colonne avec une valeur commençant par un certain caractère ?
+
+A quoi servent les INDEX ? Comment en créer ?
+
+Comment créer une relation entre 2 tables ?
+
+Comment sélectionner les données de plusieurs tables ?
+
+Comment ne sélectionner que certaines colonnes et les renommer dans la liste de résultats ?
+
+Comment supprimer une table et une base de données ?
 
 
 
