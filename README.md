@@ -107,12 +107,23 @@ Comment supprimer une table et une base de données ? **DROP TABLE/DATABASE**
 
 **PHP**
 
-Apach :
-Navigateur :
-PHP :
-Langage client :
-Langage serveur :
-Protocole HTTP :
+Apach : Apache est le serveur web. Son rôle est d'écouter les requêtes émises par les navigateurs (qui demandent des pages web), de chercher la page demandée et de la renvoyer.
+
+Navigateur : Un navigateur web est un logiciel conçu pour consulter et afficher le World Wide Web. Techniquement, c'est au minimum un client HTTP. Le rôle des navigateurs est de traduire les langages HTML, CSS et JavaScript sous la forme de sites web utilisables par tout le monde.
+
+PHP : PHP est principalement conçu pour servir de langage de script coté serveur, ce qui fait qu'il est capable de réaliser tout ce qu'un script CGI quelconque peut faire, comme collecter des données de formulaire, générer du contenu dynamique, ou gérer des cookies.
+
+Langage client : clients = votre ordinateur qui sert à aller consulter des sites web.Pour construire un site web, on a recours à des langages. Ils servent en quelque sorte à établir les plans d’architecte dont on a besoin pour construire les sites. Ces langages sont principalement : HTML, CSS, JavaScript
+Tous ces langages sont désormais indispensables à la réalisation de tous les sites web. On dit que ce sont des langages client ou encore des langages frontend, car ils sont lus par les machines des clients.
+
+Langage serveur : ce sont des ordinateurs spéciaux (souvent très puissants) qui envoient les sites web aux clients. Les serveurs "possèdent" les sites web et les distribuent à ceux qui veulent les visiter. Les langages serveur sont, comme leur nom l’indique, gérés par les serveurs. Les clients n’y touchent pas. Leur rôle est un peu différent :
+Les langages client décrivent comment le site web doit s’afficher, les langages serveur décrivent comment le site web doit se comporter. Subtil, mais important !
+Avec un langage client, je peux dire "Un menu doit s’afficher à gauche de mon site web".
+Avec un langage serveur, je peux dire "Le menu ne doit s’afficher que si cette personne a créé un compte sur mon site".
+Quelques exemples : PHP, Java (rien à voir avec JavaScript, attention !), Python, C#
+
+Protocole HTTP : 
+
 Serveur Web :
 
 
