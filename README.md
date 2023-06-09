@@ -122,9 +122,12 @@ Avec un langage client, je peux dire "Un menu doit s’afficher à gauche de mon
 Avec un langage serveur, je peux dire "Le menu ne doit s’afficher que si cette personne a créé un compte sur mon site".
 Quelques exemples : PHP, Java (rien à voir avec JavaScript, attention !), Python, C#
 
-Protocole HTTP : 
+Protocole HTTP : L’HyperText Transfer Protocol, généralement abrégé HTTP, littéralement « protocole de transfert hypertexte », est un protocole de communication client-serveur développé pour le World Wide Web. HTTPS (avec S pour secure, soit « sécurisé ») est la variante sécurisée par le chiffrement et l'authentification.
+HTTP est un protocole de la couche application dans le modèle OSI. Il peut fonctionner sur n'importe quelle connexion fiable. Dans les faits on utilise le protocole TCP comme couche de transport. Un serveur HTTP utilise alors par défaut le port 80 (443 pour HTTPS).
+Les clients HTTP les plus connus sont les navigateurs Web. Il est aussi utilisé dans des interfaces de programmation d’application (API) pour accéder aux données d'un serveur ainsi que des systèmes pour récupérer automatiquement le contenu d'un site tels que les aspirateurs de site Web et les robots d'indexation.
 
-Serveur Web :
+Serveur Web : Un « serveur web » peut faire référence à des composants logiciels (software) ou à des composants matériels (hardware) ou à des composants logiciels et matériels qui fonctionnent ensemble.
+Au niveau le plus simple, à chaque fois qu'un navigateur a besoin d'un fichier hébergé sur un serveur web, le navigateur demande (on dit qu'il envoie une requête) le fichier via HTTP. Quand la requête atteint le bon serveur web (matériel), le serveur HTTP (logiciel) renvoie le document demandé, également grâce à HTTP.
 
 
 
