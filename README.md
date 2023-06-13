@@ -132,7 +132,14 @@ Au niveau le plus simple, à chaque fois qu'un navigateur a besoin d'un fichier 
 
 
 
+fgets() - Récupère la ligne courante à partir de l'emplacement du pointeur sur fichier
+fscanf() — Analyse un fichier en fonction d'un format
 
+php://stdin, php://stdout et php://stderr permettent des accès directs aux flux d'entrée ou de sortie correspondant du processus PHP. 
+Le flux fait référence à une copie du descripteur de fichier, ce qui signifie que si vous ouvrez php://stdin et le fermez plus tard, vous ne fermez que votre copie du descripteur.
+Le flux réellement référencé par STDIN n'est pas affecté. Il est recommandé d'utiliser uniquement les constantes STDIN, STDOUT et STDERR au lieu d'ouvrir manuellement les flux en utilisant ces gestionnaires.
+
+php://stdin est en lecture seule, alors que php://stdout et php://stderr sont en écriture seule.
 
 
 
