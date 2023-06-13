@@ -131,6 +131,7 @@ Au niveau le plus simple, à chaque fois qu'un navigateur a besoin d'un fichier 
 
 
 
+**Fonctions / Syntaxe **
 
 fgets() - Récupère la ligne courante à partir de l'emplacement du pointeur sur fichier
 fscanf() — Analyse un fichier en fonction d'un format
