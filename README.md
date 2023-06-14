@@ -143,4 +143,10 @@ Le flux réellement référencé par STDIN n'est pas affecté. Il est recommand�
 php://stdin est en lecture seule, alors que php://stdout et php://stderr sont en écriture seule.
 
 
+include --> ne bloque pas totalement le script en cas d'erreur
+require --> bloque le script
+
+require_once --> si on veut inclure un fichier une seule fois, sans qu'il y est de doublons 
+
+
 
