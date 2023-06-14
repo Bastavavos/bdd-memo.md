@@ -144,6 +144,7 @@ php://stdin est en lecture seule, alors que php://stdout et php://stderr sont en
 
 
 include --> ne bloque pas totalement le script en cas d'erreur
+
 require --> bloque le script
 
 require_once --> si on veut inclure un fichier une seule fois, sans qu'il y est de doublons 
